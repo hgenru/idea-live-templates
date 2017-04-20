@@ -1,0 +1,16 @@
+<templateSet group="Javascript Mocha">
+  <template name="des" value="describe('$text$', () =&gt; {&#10;    $end$&#10;});" description="describe for tests suites" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it('should $text$', () =&gt; {&#10;    $end$&#10;});" description="it - test case in BDD style" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
